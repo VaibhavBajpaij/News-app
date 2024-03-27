@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="25dp"
+    android:layout_margin="8dp"
+    android:id="@+id/card">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="106dp"
+            android:id="@+id/header_image"
+            android:layout_margin="9dp"
+            android:src="@drawable/image1"
+            app:shapeAppearanceOverlay="@style/softcorner">
+
+
+        </com.google.android.material.imageview.ShapeableImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/header_title"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Biden's war gaffe, says will airdrop food into 'Ukraine' instead of Gaza"
+            >
+
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
